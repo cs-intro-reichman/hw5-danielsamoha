@@ -126,6 +126,8 @@ public class Wordle {
                 }
             }
 
+            storeGuess(guess, guesses, attempt);
+            computeFeedback(secret, guess, results[attempt]);
             // Store guess and compute feedback
             // ... use storeGuess and computeFeedback
 
